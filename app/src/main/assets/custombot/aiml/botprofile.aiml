@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    
+	<!-- u can write your query here -->
+	
+<category>
+    <pattern>your question goes here</pattern>
+    <template>your answer goes here.</template>
+</category>
+
+<category>
+    <pattern>creator</pattern>
+    <template>Tech Byte Care</template>
+</category>
+
+<category>
+    <pattern>hi</pattern>
+    <template>Hello there...</template>
+</category>
+
+<category>
+    <pattern>hi *</pattern>
+    <template>Hello there...</template>
+</category>
+
+
+
+<category>
+    <pattern>greet</pattern>
+    <template><random>
+        <li>Good morning.</li>
+        <li>Good afternoon.</li>
+        <li>Good evening.</li>
+        <li>Good night.</li>
+    </random></template>
+</category>
+	
+</aiml>

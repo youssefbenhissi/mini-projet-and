@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".panier.CartActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+
+                android:weightSum="8">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Total Prix"
+                    android:textColor="#358FDF"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/txt_final_price"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:fontFamily="@font/magnifika"
+                    android:gravity="right"
+                    android:text="0"
+                    android:textColor="#380AB4"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+
+            android:id="@+id/btn_order"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#358FDF"
+            android:fontFamily="@font/roboto_bold"
+            android:text="commander"
+            android:textColor="@color/colorWhite"
+
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#358FDF"
+            android:fontFamily="@font/roboto_bold"
+            android:text="GAGNEZ UNE REMISE EN REGARDANT LA VIDÉO"
+            android:textColor="@color/colorWhite"
+
+            />
+
+        <!--  <Button
+              android:id="@+id/btn_place_order"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:layout_marginTop="8dp"
+              android:background="@color/colorRed"
+              android:text="PLACE ORDER" />-->
+        <com.scwang.wave.MultiWaveHeader
+            android:id="@+id/wave_footer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scaleY="-1"
+            android:layout_alignParentBottom="true"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <com.scwang.wave.MultiWaveHeader
+            android:id="@+id/wave_header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_cart"
+            android:layout_width="match_parent"
+            android:layout_height="425dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+        <!--
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Button" />-->
+    </LinearLayout>
+
+
+</RelativeLayout>

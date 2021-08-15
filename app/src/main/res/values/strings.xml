@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">Slizzing Bites</string>
+    <string name="facebook_app_id">2824122047803884</string>
+    <string name="fb_login_protocol_scheme">fb2824122047803884</string>
+
+    <string name="positive_popup_text_default">You have successfully completed the challenge. Keep it up to earn more points.</string>
+    <string name="positive_popup_title_default">Like a boss! </string>
+    <string name="negative_popup_text_default">You have failed completed the challenge. So close ! Wanna have another go at it?</string>
+    <string name="negative_popup_title_default">Awww...Snap!</string>
+    <string name="place_order">Place Order</string>
+
+
+    <string name="share_now">Share Now</string>
+    <string name="le_resto">Le Resto</string>
+    <string name="free_delivery">free_delivery</string>
+    <string name="u20b9_734">u20b9_734</string>
+    <string name="add_to_favoites">Add To Favoites</string>
+    <string name="share_product_via">Share Product Via ...</string>
+    <string name="share">Share</string>
+    <string name="show_bottom_sheet_dialog">Show Bottom Sheet Dialog</string>
+    <string name="welcome_to_slizzing_bites">Welcome to Slizzing Bites</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_up">S\'inscrire</string>
+
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+</resources>
